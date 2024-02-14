@@ -11,6 +11,7 @@ displayWeather.js - displays data on index.html<br>
 Run this code:
 ``` bash
 git clone https://github.com/m-aleksandra/weather_app.git
+cd weather_app
 http-server
 ```
 
