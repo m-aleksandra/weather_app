@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@200;300&family=Playfair+Display&family=Raleway:ital,wght@1,100&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Dosis;
+}
+
+body {
+  background-color: rgba(217, 227, 232, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 8px;
+  border-radius: 0.5rem;
+  border: rgb(227, 239, 241) solid;
+}
+i {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 2rem;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.buttons button {
+  width: 80px;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 8px;
+  border-radius: 0.5rem;
+  border: rgb(227, 239, 241) solid;
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+}
+.chart {
+  display: none;
+}
+
+.active {
+  color: white;
+  background-color: rgba(58, 123, 213, 1);
+}
+
+.current {
+  display: block;
+  width: 60vw;
+  height: 300px;
+}
+
+button {
+  cursor: pointer;
+}

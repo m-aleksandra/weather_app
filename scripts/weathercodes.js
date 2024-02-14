@@ -1,0 +1,32 @@
+const baseUrl = window.location.origin + '/images/';
+
+export const codes = {
+  0: { description: "Clear sky", imagePath: `${baseUrl}clear-day.svg` },
+  1: { description: "Mainly clear", imagePath: `${baseUrl}partly-cloudy-day.svg` },
+  2: { description: "Partly cloudy", imagePath: `${baseUrl}partly-cloudy-day.svg` },
+  3: { description: "Overcast", imagePath: `${baseUrl}overcast.svg` },
+  45: { description: "Fog", imagePath: `${baseUrl}fog.svg` },
+  48: { description: "Fog", imagePath: `${baseUrl}fog.svg` },
+  51: { description: "Drizzle: Light intensity", imagePath: `${baseUrl}drizzle.svg` },
+  53: { description: "Drizzle: Moderate intensity", imagePath: `${baseUrl}drizzle.svg` },
+  55: { description: "Drizzle: Dense intensity", imagePath: `${baseUrl}drizzle.svg` },
+  56: { description: "Freezing Drizzle: Light intensity", imagePath: `${baseUrl}drizzle.svg` },
+  57: { description: "Freezing Drizzle: Dense intensity", imagePath: `${baseUrl}drizzle.svg` },
+  61: { description: "Rain: Slight intensity", imagePath: `${baseUrl}rain.svg` },
+  63: { description: "Rain: Moderate intensity", imagePath: `${baseUrl}rain.svg` },
+  65: { description: "Rain: Heavy intensity", imagePath: `${baseUrl}rain.svg` },
+  66: { description: "Freezing Rain: Light intensity", imagePath: `${baseUrl}rain.svg` },
+  67: { description: "Freezing Rain: Heavy intensity", imagePath: `${baseUrl}rain.svg` },
+  71: { description: "Snowfall: Slight intensity", imagePath: `${baseUrl}snow.svg` },
+  73: { description: "Snowfall: Moderate intensity", imagePath: `${baseUrl}snow.svg` },
+  75: { description: "Snowfall: Heavy intensity", imagePath: `${baseUrl}snow.svg` },
+  77: { description: "Snow grains", imagePath: `${baseUrl}snow.svg` },
+  80: { description: "Rain showers: Slight intensity", imagePath: `${baseUrl}rain.svg` },
+  81: { description: "Rain showers: Moderate intensity", imagePath: `${baseUrl}rain.svg` },
+  82: { description: "Rain showers: Violent intensity", imagePath: `${baseUrl}rain.svg` },
+  85: { description: "Snow showers: Slight intensity", imagePath: `${baseUrl}snow.svg` },
+  86: { description: "Snow showers: Heavy intensity", imagePath: `${baseUrl}snow.svg` },
+  95: { description: "Thunderstorm: Slight or moderate", imagePath: `${baseUrl}thunderstorms.svg` },
+  96: { description: "Thunderstorm with slight hail", imagePath: `${baseUrl}thunderstorms.svg` },
+  99: { description: "Thunderstorm with heavy hail", imagePath: `${baseUrl}thunderstorms.svg` }
+};

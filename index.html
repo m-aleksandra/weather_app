@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/weatherStyles.css" />
+  </head>
+  <body>
+    <button class="charts"><i class="fa-solid fa-chart-simple"></i></button>
+    <div class="content">
+      <section class="current-weather">
+        <div class="search">
+          <i class="fa-solid fa-location-dot"></i>
+          <input type="text" class="search-input" />
+        </div>
+        <div class="date-time">Tuesday, 19:00</div>
+        <div class="container">
+          <img alt="clouds" class="curr-img" />
+          <div class="wrapper">
+            <div class="curr-temp">17C</div>
+            <div class="description">Mostly clear</div>
+          </div>
+        </div>
+        <div class="current-parameters">
+          <div class="rain section">
+            <i class="fa-solid fa-umbrella"></i>
+            <div class="info">30%</div>
+            <div>Rain</div>
+          </div>
+          <div class="humidity section">
+            <i class="fa-solid fa-water"></i>
+            <div class="info">12%</div>
+            <div>Humidity</div>
+          </div>
+          <div class="windspeed section">
+            <i class="fa-solid fa-wind"></i>
+            <div class="info">13km/h</div>
+            <div>Windspeed</div>
+          </div>
+        </div>
+        <input type="range" class="hour-selector" min="0" max="23" value="0"/>
+      </section>
+      <section class="weekly">
+        <h2>WEEKLY FORECAST</h2>
+        <div class="buttons">
+          <button class="temp active-button">Temp</button>
+          <button class="wind">Wind</button>
+          <button class="precip">Rain</button>
+        </div>
+        <div class="weekly-weather">
+          <div class="day-row" id="0">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+          <div class="day-row" id="1">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+          <div class="day-row" id="2">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+          <div class="day-row" id="3">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+          <div class="day-row" id="4">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+          <div class="day-row" id="5">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+          <div class="day-row" id="6">
+            <div class="val">17</div>
+            <div class="day">Sun</div>
+            <img alt="weather-icon" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="./displayWeather.js" defer></script>
+  </body>
+</html>
