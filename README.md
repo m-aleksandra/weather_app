@@ -9,19 +9,10 @@ displayWeather.js - displays data on index.html<br>
 
 
 Run this code:
-
-1. clone this repository:<br>
-    git clone https://github.com/m-aleksandra/weather-app.git
-
-2. go to the project directory and start server. Install
-    http-server (if you haven't already)<br>
-    npm install -g http-server
-
-3. start local server:<br>
-    http-server
-
-4. Open your browser and acces application at http://localhost:8080 (or different port number depending on your output)
-
+``` bash
+git clone https://github.com/m-aleksandra/weather_app.git
+http-server
+```
 
 
 
